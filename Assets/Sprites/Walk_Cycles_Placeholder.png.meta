@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 1a66c40d141908149b4bda961fb59797
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8360806398737054835
+    second: Walk_Forward_Left_1_Placeholder
+  - first:
+      213: -392516636397065818
+    second: Walk_Forward_Left_0_Placeholder
+  - first:
+      213: 1588007538181472653
+    second: Front_Left_Placeholder
+  - first:
+      213: -2719725413844825722
+    second: Walk_Cycles_Placeholder_3
+  - first:
+      213: -413314966250274505
+    second: Walk_Cycles_Placeholder_4
+  - first:
+      213: -1746252085365154756
+    second: Walk_Cycles_Placeholder_5
+  - first:
+      213: -1272825844389656185
+    second: Walk_Cycles_Placeholder_6
+  - first:
+      213: 1282179365369015110
+    second: Walk_Cycles_Placeholder_7
+  - first:
+      213: 973545134731846753
+    second: Walk_Cycles_Placeholder_8
+  - first:
+      213: -7769494787287594662
+    second: Walk_Cycles_Placeholder_9
+  - first:
+      213: -8207524995854922746
+    second: Walk_Cycles_Placeholder_10
+  - first:
+      213: 4236304560156028174
+    second: Walk_Cycles_Placeholder_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walk_Forward_Left_1_Placeholder
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1460
+        width: 309
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d830777b0e278fb80800000000000000
+      internalID: -8360806398737054835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Forward_Left_0_Placeholder
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1455
+        width: 389
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a92f17e2308d8af0800000000000000
+      internalID: -392516636397065818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front_Left_Placeholder
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1458
+        width: 233
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8103fd317cb90610800000000000000
+      internalID: 1588007538181472653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycles_Placeholder_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 979
+        width: 234
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6894d255528914ad0800000000000000
+      internalID: -2719725413844825722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycles_Placeholder_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 976
+        width: 390
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731cc406a3c934af0800000000000000
+      internalID: -413314966250274505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycles_Placeholder_5
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 982
+        width: 309
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c568bfaf014c7e0800000000000000
+      internalID: -1746252085365154756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycles_Placeholder_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 508
+        width: 226
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c73463a3065ee0800000000000000
+      internalID: -1272825844389656185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycles_Placeholder_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 508
+        width: 262
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64be72be6573bc110800000000000000
+      internalID: 1282179365369015110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycles_Placeholder_8
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 512
+        width: 362
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1646088542ab28d00800000000000000
+      internalID: 973545134731846753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycles_Placeholder_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 24
+        width: 363
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59497fc7a53d2490800000000000000
+      internalID: -7769494787287594662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycles_Placeholder_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 20
+        width: 262
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c8de86083091e80800000000000000
+      internalID: -8207524995854922746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycles_Placeholder_11
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 21
+        width: 229
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0da7747d806aca30800000000000000
+      internalID: 4236304560156028174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1a49a1cca6dbb614181395ecbee93721
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
