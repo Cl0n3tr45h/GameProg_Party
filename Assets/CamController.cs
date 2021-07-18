@@ -29,10 +29,11 @@ public class CamController : MonoBehaviour
         while(cam.m_Lens.FieldOfView > NearFieldOfView)
             cam.m_Lens.FieldOfView -= 2 ;
     }
+
     public void DoZoomOut()
     {
         while(cam.m_Lens.FieldOfView < FarFieldOfView)
             cam.m_Lens.FieldOfView += 2;
     }
-    
+
 }

@@ -1,12 +1,18 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.IO;
 using TMPro;
 using UnityEngine;
 
+[RequireComponent(typeof(FileHandler))]
 public class WinGame_StampfGraben : MonoBehaviour
 {
     public TextMeshProUGUI text;
+    public Timer Timer;
+    private FileHandler fileHandler;
+    
     public PlayerController Player1;
     public float ScaleTime;
     public PlayerController Player2;
@@ -14,6 +20,7 @@ public class WinGame_StampfGraben : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        fileHandler = GetComponent<FileHandler>();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -35,5 +42,8 @@ public class WinGame_StampfGraben : MonoBehaviour
         //Maybe first when there's actual characters tho
         text.text = HasPlayer1Won ? "PLAYER 1 \n WON!!!" : "PLAYER 2 \n WON!!!";
         LeanTween.scale(text.rectTransform, new Vector3(2f, 2f, 2f), ScaleTime);
+        string finaltime = Timer.gameObject.GetComponent<TextMeshProUGUI>().text;
+        Timer.Stop();
+        fileHandler.CalculateHighScore(finaltime);
     }
 }

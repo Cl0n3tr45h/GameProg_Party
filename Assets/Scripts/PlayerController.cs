@@ -174,7 +174,7 @@ public class PlayerController : MonoBehaviour
             moveInput.x = Speed;
         }
 
-        if (!Input.GetKey(controls["forward"]) && !Input.GetKey(controls["back"]))
+        /*if (!Input.GetKey(controls["forward"]) && !Input.GetKey(controls["back"]))
         {
             moveInput.y = 0;
         }
@@ -185,7 +185,7 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetKey(controls["back"]))
         {
             moveInput.y = -Speed;
-        }
+        }*/
         
     }
     
