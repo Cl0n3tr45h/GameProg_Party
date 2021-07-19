@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/MainMenu.unity
+    guid: a45b67c56073b834dbfe841f496b2d4e
+  - enabled: 1
+    path: Assets/Scenes/StampfGraben/StampfGraben_1Player.unity
+    guid: 32f2a8a6e80d04e428a83dbb9b4e4a4c
+  - enabled: 1
+    path: Assets/Scenes/StampfGraben/StampfGraben_2Player.unity
+    guid: 72c299d1764eb3f499938d4b8e8f52a0
   m_configObjects: {}
