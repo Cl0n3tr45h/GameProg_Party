@@ -7,7 +7,7 @@ using UnityEngine.VFX;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody player;
-
+    private AudioSource audio;
     public bool IsPlayer1;
 
     [HideInInspector]public bool AllowedToMove;
@@ -68,6 +68,7 @@ public class PlayerController : MonoBehaviour
         TempAirTime = StopInAirTime;
         flip = GetComponent<Flip>();
         particles = GetComponent<ParticleController>();
+        audio = GetComponent<AudioSource>();
     }
     
     void Update()
@@ -152,6 +153,7 @@ public class PlayerController : MonoBehaviour
     {
         player.isKinematic = true;
         DetermineAnimations();
+        audio.Play();
         yield return new WaitForSeconds(TempAirTime);
         player.isKinematic = false;   
         fallSpeed += StompSpeed;

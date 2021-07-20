@@ -12,7 +12,8 @@ public class HardBlock_StampfGraben : MonoBehaviour
     private PlayerController playerController;
     private ParticleController particleController;
     public GameObject DestroyPrefab;
-    public Material mat;
+    private Material mat;
+    private AudioSource audio;
     public Color firstLevelCrack;
     public Color secondLevelCrack;
 
@@ -20,6 +21,7 @@ public class HardBlock_StampfGraben : MonoBehaviour
     void Start()
     {
         mat = GetComponent<MeshRenderer>().material;
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,7 +35,7 @@ public class HardBlock_StampfGraben : MonoBehaviour
                 particleController = other.gameObject.GetComponent<ParticleController>();
                 airTime = playerController.StopInAirTime;
             }
-
+            
             checkDestruction();
         }
     }
@@ -61,6 +63,7 @@ public class HardBlock_StampfGraben : MonoBehaviour
         }
         else
         {
+            audio.Play();
             CrackStone();
         }
 

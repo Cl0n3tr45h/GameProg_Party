@@ -13,6 +13,8 @@ public class WinGame_StampfGraben : MonoBehaviour
     public Timer Timer;
     private FileHandler fileHandler;
     private activateCanvas activateCanvas;
+    private AudioSource audio;
+    public AudioSource bgMusic;
     
     public PlayerController Player1;
     public float ScaleTime;
@@ -23,6 +25,7 @@ public class WinGame_StampfGraben : MonoBehaviour
     {
         fileHandler = GetComponent<FileHandler>();
         activateCanvas = GetComponent<activateCanvas>();
+        audio = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -47,6 +50,8 @@ public class WinGame_StampfGraben : MonoBehaviour
 
     void EndGame(bool HasPlayer1Won)
     {
+        bgMusic.Stop();
+        audio.Play();
         Player1.enabled = false;
         Player2.enabled = false;
         //consider Win/Loose animations
