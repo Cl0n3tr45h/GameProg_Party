@@ -12,6 +12,7 @@ public class WinGame_StampfGraben : MonoBehaviour
     public TextMeshProUGUI text;
     public Timer Timer;
     private FileHandler fileHandler;
+    private activateCanvas activateCanvas;
     
     public PlayerController Player1;
     public float ScaleTime;
@@ -21,7 +22,17 @@ public class WinGame_StampfGraben : MonoBehaviour
     void Start()
     {
         fileHandler = GetComponent<FileHandler>();
+        activateCanvas = GetComponent<activateCanvas>();
     }
+
+    private void Update()
+    {
+        if (!Player1.enabled && Input.GetKeyDown(KeyCode.Space))
+        {
+            activateCanvas.ChangeState();
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<PlayerController>() == Player1)

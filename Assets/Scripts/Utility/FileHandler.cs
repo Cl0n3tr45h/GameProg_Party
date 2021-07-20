@@ -10,7 +10,6 @@ public class FileHandler : MonoBehaviour
 {
     private string path = "Assets/Resources/Misc/HighScores_StampfGraben.txt";
 
-    private string fileContent;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,17 +19,18 @@ public class FileHandler : MonoBehaviour
         }
     }
 
-    public void ReadFile()
+    public static string ReadFile(string path)
     {
         var streamReader = new StreamReader(path);
-        fileContent = streamReader.ReadToEnd();
+        string fileContent = streamReader.ReadToEnd();
         streamReader.Close();
+        return fileContent;
     }
 
     public void CalculateHighScore(string finalTime)
     {
         double[] _finalTime = ConvertTimeStringToIntArr(finalTime);
-        ReadFile();
+        string fileContent = ReadFile(path);
         List<string> Lines = fileContent.Split('\n').ToList();
         double[] previousTimes = ConvertTimeListIntoIntArr(Lines);
         List<double> resultList = new List<double>();
